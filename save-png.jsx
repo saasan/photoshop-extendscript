@@ -37,6 +37,9 @@ function main() {
         // 保存するPNGファイル名
         var fileName = doc.fullName.toString().replace(/\.[^\.]+$/, '.png');
 
+        // ファイルをアクティブにする
+        app.activeDocument = doc;
+
         // RGB形式へ変更
         doc.changeMode(ChangeMode.RGB);
 
