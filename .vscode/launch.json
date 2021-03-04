@@ -7,6 +7,13 @@
         {
             "type": "extendscript-debug",
             "request": "launch",
+            "name": "remove-top-layer.jsx",
+            "program": "${workspaceFolder}/remove-top-layer.jsx",
+            "stopOnEntry": false
+        },
+        {
+            "type": "extendscript-debug",
+            "request": "launch",
             "name": "save-png.jsx",
             "program": "${workspaceFolder}/save-png.jsx",
             "stopOnEntry": false
