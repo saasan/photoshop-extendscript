@@ -4,12 +4,11 @@
     // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "extendscript-debug",
             "request": "launch",
-            "name": "スクリプト名を求める",
-            "program": "${workspaceFolder}/${command:AskForScriptName}",
+            "name": "save-png.jsx",
+            "program": "${workspaceFolder}/save-png.jsx",
             "stopOnEntry": false
         }
     ]
